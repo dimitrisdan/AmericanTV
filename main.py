@@ -9,7 +9,7 @@ from read_data import wiki_data, omdb_data
 pp = pprint.PrettyPrinter(indent=4)
 
 # WIKI DATA
-path = '/home/artoo/Workspace_local/Python/Final_Project_02806/data/wiki'
+path = 'GIVE A PATH TO WIKI DATA'
 infoboxes, receptions, episode_dic, season_dic, series_length = get_infobox(wiki_data)
 num_files = sum([len(files) for r, d, files in os.walk(path)])
 sentiment_score = get_score_list()
